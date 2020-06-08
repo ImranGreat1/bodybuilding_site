@@ -1,0 +1,24 @@
+//secondary-color
+name: Azure blue
+html: #2faeeb
+
+//primary-color
+name: cold gray
+html: #717171
+
+//dark-color
+#222
+
+//light-color
+#f4f4f4
+
+//main-color
+#212f3c
+
+
+// Fonts-family
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+name: "Noto Sans KR"
+
+// Fonts-awesome-cdn
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css
