@@ -3,6 +3,7 @@ $primary-color: #717171;
 $secondary-color: #2faeeb;
 $dark-color: #222;
 $light-color: #f4f4f4;
+$site-width: 1100px;
 
 @function set-text-color($bg-color) {
   @if (lightness($bg-color) > 50%) {

@@ -1,5 +1,5 @@
 .container {
-    max-width: 1200px;
+    max-width: $site-width;
     margin: 0 auto;
     padding: 0 1.5rem;
 }
@@ -15,6 +15,57 @@ img.responsive-img {
     height: auto;
 }
 
+.current {
+    padding: 1rem 1.5rem;
+    background-color: $primary-color;
+    color: set-text-color($primary-color);
+    box-shadow: 2px 2px 4px $dark-color;
+    transition: background-color 0.4s;
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+        color: set-text-color(darken($primary-color, 10%));
+
+    }
+}
+
+
+// BACKGROUND
+.bg-dark {
+    background-color: $dark-color;
+    color: set-text-color($dark-color);
+}
+
+.bg-light {
+    background-color: $light-color;
+    color: set-text-color($light-color);
+}
+
+.bg-main {
+    background-color: $main-color;
+    color: set-text-color($main-color);
+}
+
+.bg-primary {
+    background-color: $primary-color;
+    color: set-text-color($primary-color);
+}
+
+.bg-secondary {
+    background-color: $secondary-color;
+    color: set-text-color($secondary-color);
+}
+
+// COLORS
+.primary-color {
+    color: $primary-color;
+}
+
+.secondary-color {
+    color: $secondary-color;
+}
+
+// Typography
 
 
 
@@ -32,7 +83,7 @@ $spaces: (1, 2, 3, 4, 5);
         margin: #{$space}rem 0;
     }
 
-    .my-#{$space} {
+    .mx-#{$space} {
         margin: 0 #{$space}rem;
     }
 
