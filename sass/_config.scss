@@ -6,11 +6,23 @@ $light-color: #f4f4f4;
 $site-width: 1100px;
 
 @function set-text-color($bg-color) {
-  @if (lightness($bg-color) > 50%) {
+  @if (lightness($bg-color) > 60%) {
     @return $dark-color;
   }
 
   @else {
     @return $light-color;
   }
+}
+
+
+@function set-hover-effect($bg-color) {
+  @if (lightness($bg-color) > 50%) {
+    @return darken($bg-color, 10%);
+  }
+
+  @else {
+    @return lighten($bg-color, 10%);
+  }
+
 }

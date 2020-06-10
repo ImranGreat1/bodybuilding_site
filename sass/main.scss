@@ -5,7 +5,7 @@
 
 // HEADER
 #main-header {
-    .navbar {
+    #navbar {
 
         // SECTION-ONE OF NAVBAR
         .section-one-wrap {
@@ -109,4 +109,31 @@
 
         }
     }
+
+    // Showcase
+    #showcase {
+        height: 80vh;
+        background: $dark-color;
+        color: set-text-color($dark-color);
+        position: relative;
+        opacity: 0.9;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../img/showcase4.jpg') no-repeat center top/cover;
+            z-index: -1;
+        }
+
+        .showcase-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 10%;
+        }
+    }
+
 }

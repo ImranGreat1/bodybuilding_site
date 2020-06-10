@@ -29,31 +29,97 @@ img.responsive-img {
     }
 }
 
+// BUTTONS
+%btn-share {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    padding: 8px 1.6px;
+    font-size: 2rem;
+    transition: background-color 0.4s;
+    border-radius: 5px;
+}
+
+@mixin btn-mixin($bg-color) {
+    background-color: $bg-color;
+    color: set-text-color($bg-color);
+
+    &:hover {
+        background-color: set-hover-effect($bg-color);
+    }
+}
+
+.btn {
+    @extend %btn-share;
+
+    // dark
+    &-dark {
+        @include btn-mixin($dark-color)
+    }
+
+    // light
+    &-light {
+        @include btn-mixin($light-color)
+    }
+
+    //primary
+    &-primary {
+        @include btn-mixin($primary-color)
+    }
+
+    //secondary
+    &-secondary {
+        @include btn-mixin($secondary-color)
+    }
+
+    //main
+    &-main {
+        background-color: $main-color;
+        color: set-text-color($main-color);
+
+        &:hover {
+            background-color: set-hover-effect($main-color);
+        }
+    }
+
+    // Sizes
+    &-lg {
+        padding: 1.3rem 4rem;
+        font-size: 2.2rem;
+    }
+
+    &-sm {
+        padding: 5px 1.2rem;
+
+    }
+
+}
+
 
 // BACKGROUND
+@mixin bg-mixin($bg-color) {
+    background-color: $bg-color;
+    color: set-text-color($bg-color);
+}
+
 .bg-dark {
-    background-color: $dark-color;
-    color: set-text-color($dark-color);
+    @include bg-mixin($dark-color)
 }
 
 .bg-light {
-    background-color: $light-color;
-    color: set-text-color($light-color);
+    @include bg-mixin($light-color)
 }
 
 .bg-main {
-    background-color: $main-color;
-    color: set-text-color($main-color);
+    @include bg-mixin($main-color)
 }
 
 .bg-primary {
-    background-color: $primary-color;
-    color: set-text-color($primary-color);
+    @include bg-mixin($primary-color)
 }
 
 .bg-secondary {
-    background-color: $secondary-color;
-    color: set-text-color($secondary-color);
+    @include bg-mixin($secondary-color)
 }
 
 // COLORS
@@ -66,7 +132,56 @@ img.responsive-img {
 }
 
 // Typography
+.lead {
+    font-size: 2rem;
+    line-height: 1.6;
+}
 
+// Headings
+$weights: (100, 200, 300, 400, 500, 600, 700, 800, 900);
+
+.xl-heading {
+    font-size: 7rem;
+
+    @each $weight in $weights {
+        &-#{$weight} {
+            font-weight: #{$weight};
+        }
+    }
+
+}
+
+.l-heading {
+    font-size: 5rem;
+
+    @each $weight in $weights {
+        &-#{$weight} {
+            font-weight: #{$weight};
+        }
+    }
+
+}
+
+.m-heading {
+    font-size: 3rem;
+
+    @each $weight in $weights {
+        &-#{$weight} {
+            font-weight: #{$weight};
+        }
+    }
+
+}
+
+.s-heading {
+    font-size: 2rem;
+
+    @each $weight in $weights {
+        &-#{$weight} {
+            font-weight: #{$weight};
+        }
+    }
+}
 
 
 

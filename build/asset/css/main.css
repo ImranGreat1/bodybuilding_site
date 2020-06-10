@@ -66,6 +66,59 @@ img.responsive-img {
   color: #f4f4f4;
 }
 
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  padding: 8px 1.6px;
+  font-size: 2rem;
+  transition: background-color 0.4s;
+  border-radius: 5px;
+}
+
+.btn-dark {
+  background-color: #222;
+  color: #f4f4f4;
+}
+.btn-dark:hover {
+  background-color: #3c3c3c;
+}
+.btn-light {
+  background-color: #f4f4f4;
+  color: #222;
+}
+.btn-light:hover {
+  background-color: #dbdbdb;
+}
+.btn-primary {
+  background-color: #717171;
+  color: #f4f4f4;
+}
+.btn-primary:hover {
+  background-color: #8b8b8b;
+}
+.btn-secondary {
+  background-color: #2faeeb;
+  color: #f4f4f4;
+}
+.btn-secondary:hover {
+  background-color: #1495d3;
+}
+.btn-main {
+  background-color: #212f3c;
+  color: #f4f4f4;
+}
+.btn-main:hover {
+  background-color: #33495d;
+}
+.btn-lg {
+  padding: 1.3rem 4rem;
+  font-size: 2.2rem;
+}
+.btn-sm {
+  padding: 5px 1.2rem;
+}
+
 .bg-dark {
   background-color: #222;
   color: #f4f4f4;
@@ -88,7 +141,7 @@ img.responsive-img {
 
 .bg-secondary {
   background-color: #2faeeb;
-  color: #222;
+  color: #f4f4f4;
 }
 
 .primary-color {
@@ -97,6 +150,135 @@ img.responsive-img {
 
 .secondary-color {
   color: #2faeeb;
+}
+
+.lead {
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.xl-heading {
+  font-size: 7rem;
+}
+.xl-heading-100 {
+  font-weight: 100;
+}
+.xl-heading-200 {
+  font-weight: 200;
+}
+.xl-heading-300 {
+  font-weight: 300;
+}
+.xl-heading-400 {
+  font-weight: 400;
+}
+.xl-heading-500 {
+  font-weight: 500;
+}
+.xl-heading-600 {
+  font-weight: 600;
+}
+.xl-heading-700 {
+  font-weight: 700;
+}
+.xl-heading-800 {
+  font-weight: 800;
+}
+.xl-heading-900 {
+  font-weight: 900;
+}
+
+.l-heading {
+  font-size: 5rem;
+}
+.l-heading-100 {
+  font-weight: 100;
+}
+.l-heading-200 {
+  font-weight: 200;
+}
+.l-heading-300 {
+  font-weight: 300;
+}
+.l-heading-400 {
+  font-weight: 400;
+}
+.l-heading-500 {
+  font-weight: 500;
+}
+.l-heading-600 {
+  font-weight: 600;
+}
+.l-heading-700 {
+  font-weight: 700;
+}
+.l-heading-800 {
+  font-weight: 800;
+}
+.l-heading-900 {
+  font-weight: 900;
+}
+
+.m-heading {
+  font-size: 3rem;
+}
+.m-heading-100 {
+  font-weight: 100;
+}
+.m-heading-200 {
+  font-weight: 200;
+}
+.m-heading-300 {
+  font-weight: 300;
+}
+.m-heading-400 {
+  font-weight: 400;
+}
+.m-heading-500 {
+  font-weight: 500;
+}
+.m-heading-600 {
+  font-weight: 600;
+}
+.m-heading-700 {
+  font-weight: 700;
+}
+.m-heading-800 {
+  font-weight: 800;
+}
+.m-heading-900 {
+  font-weight: 900;
+}
+
+.s-heading {
+  font-size: 2rem;
+}
+.s-heading-100 {
+  font-weight: 100;
+}
+.s-heading-200 {
+  font-weight: 200;
+}
+.s-heading-300 {
+  font-weight: 300;
+}
+.s-heading-400 {
+  font-weight: 400;
+}
+.s-heading-500 {
+  font-weight: 500;
+}
+.s-heading-600 {
+  font-weight: 600;
+}
+.s-heading-700 {
+  font-weight: 700;
+}
+.s-heading-800 {
+  font-weight: 800;
+}
+.s-heading-900 {
+  font-weight: 900;
 }
 
 .m-1 {
@@ -219,66 +401,66 @@ img.responsive-img {
   padding: 0 5rem;
 }
 
-#main-header .navbar .section-one-wrap {
+#main-header #navbar .section-one-wrap {
   height: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 1.4rem;
 }
-#main-header .navbar .section-one-wrap ul {
+#main-header #navbar .section-one-wrap ul {
   display: flex;
 }
-#main-header .navbar .section-one-wrap li:not(:first-child) {
+#main-header #navbar .section-one-wrap li:not(:first-child) {
   margin-left: 1.5rem;
 }
-#main-header .navbar .section-one-wrap a {
+#main-header #navbar .section-one-wrap a {
   color: #f4f4f4;
   font-size: 1.2rem;
 }
-#main-header .navbar .section-one-wrap a:hover {
+#main-header #navbar .section-one-wrap a:hover {
   color: #717171;
   transition: color 0.4s;
 }
-#main-header .navbar .section-two-wrap {
+#main-header #navbar .section-two-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 10rem;
 }
-#main-header .navbar .section-two-wrap a {
+#main-header #navbar .section-two-wrap a {
   color: #f4f4f4;
 }
-#main-header .navbar .section-two-wrap a:hover:not(.current) {
+#main-header #navbar .section-two-wrap a:hover:not(.current) {
   color: #2faeeb;
   transition: color 0.4s;
 }
-#main-header .navbar .section-two-wrap .logo {
+#main-header #navbar .section-two-wrap .logo {
   font-size: 2.5rem;
 }
-#main-header .navbar .section-two-wrap .logo .sm-txt {
+#main-header #navbar .section-two-wrap .logo .sm-txt {
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 3px;
   font-weight: 100;
 }
-#main-header .navbar .section-two-wrap .links > li {
+#main-header #navbar .section-two-wrap .links > li {
   display: inline-block;
 }
-#main-header .navbar .section-two-wrap .links > li {
+#main-header #navbar .section-two-wrap .links > li {
   margin-right: 2.5rem;
 }
-#main-header .navbar .section-two-wrap .dropdown {
+#main-header #navbar .section-two-wrap .dropdown {
   position: relative;
 }
-#main-header .navbar .section-two-wrap .dropdown:hover > .dropdown-links {
+#main-header #navbar .section-two-wrap .dropdown:hover > .dropdown-links {
   opacity: 1;
   display: block;
 }
-#main-header .navbar .section-two-wrap .dropdown .dropdown-pointer:hover {
+#main-header #navbar .section-two-wrap .dropdown .dropdown-pointer:hover {
   color: #f4f4f4;
 }
-#main-header .navbar .section-two-wrap .dropdown-links {
+#main-header #navbar .section-two-wrap .dropdown-links {
   display: none;
   position: absolute;
   left: 0;
@@ -287,8 +469,30 @@ img.responsive-img {
   z-index: 1;
   margin-top: 1px;
 }
-#main-header .navbar .section-two-wrap .dropdown-links li {
+#main-header #navbar .section-two-wrap .dropdown-links li {
   margin: 1rem 0;
+}
+#main-header #showcase {
+  height: 80vh;
+  background: #222;
+  color: #f4f4f4;
+  position: relative;
+  opacity: 0.9;
+}
+#main-header #showcase::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/showcase4.jpg") no-repeat center top/cover;
+  z-index: -1;
+}
+#main-header #showcase .showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 10%;
 }
 
 /*# sourceMappingURL=main.css.map */
