@@ -29,15 +29,19 @@ img.responsive-img {
     }
 }
 
+.rounded {
+    border-radius: 50%;
+}
+
 // BUTTONS
 %btn-share {
     display: inline-block;
     text-decoration: none;
     border: none;
-    padding: 8px 1.6px;
+    padding: 8px 1.6rem;
     font-size: 2rem;
     transition: background-color 0.4s;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 @mixin btn-mixin($bg-color) {
@@ -131,6 +135,10 @@ img.responsive-img {
     color: $secondary-color;
 }
 
+.text-white {
+    color: #fff;
+}
+
 // Typography
 .lead {
     font-size: 2rem;
@@ -190,27 +198,70 @@ $weights: (100, 200, 300, 400, 500, 600, 700, 800, 900);
 $spaces: (1, 2, 3, 4, 5);
 
 @each $space in $spaces {
+
+    // Margin
     .m-#{$space} {
         margin: #{$space}rem;
     }
 
     .my-#{$space} {
-        margin: #{$space}rem 0;
+        margin-top: #{$space}rem;
+        margin-bottom: #{$space}rem;
     }
 
     .mx-#{$space} {
-        margin: 0 #{$space}rem;
+        margin-left: #{$space}rem;
+        margin-right: #{$space}rem;
     }
 
+    .ml-#{$space} {
+        margin-left: #{$space}rem;
+    }
+
+    .mr-#{$space} {
+        margin-right: #{$space}rem;
+    }
+
+    .mt-#{$space} {
+        margin-top: #{$space}rem;
+    }
+
+    .mb-#{$space} {
+        margin-bottom: #{$space}rem;
+    }
+
+
+
+
+    // PAdding
     .p-#{$space} {
         padding: #{$space}rem;
     }
 
     .py-#{$space} {
-        padding: #{$space}rem 0;
+        padding-top: #{$space}rem;
+        padding-bottom: #{$space}rem;
     }
 
     .px-#{$space} {
-        padding: 0 #{$space}rem;
+        padding-left: #{$space}rem;
+        padding-right: #{$space}rem;
     }
+
+    .pl-#{$space} {
+        padding-left: #{$space}rem;
+    }
+
+    .pr-#{$space} {
+        padding-right: #{$space}rem;
+    }
+
+    .pt-#{$space} {
+        padding-top: #{$space}rem;
+    }
+
+    .pb-#{$space} {
+        padding-bottom: #{$space}rem;
+    }
+
 }

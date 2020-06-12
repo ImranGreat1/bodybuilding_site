@@ -8,6 +8,11 @@
     #navbar {
 
         // SECTION-ONE OF NAVBAR
+        .section-one {
+            background-color: lighten($dark-color, 5%);
+            color: set-text-color(lighten($dark-color, 5%));
+        }
+
         .section-one-wrap {
             height: 5rem;
             display: flex;
@@ -136,4 +141,68 @@
         }
     }
 
+}
+
+
+// Twitter section
+#twitter {
+    background-color: darken($primary-color, 15%);
+    color: $primary-color;
+
+    .twitter-container {
+        height: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .icon-container {
+        display: flex;
+
+        p {
+            margin-left: 5rem;
+        }
+
+        i {
+            color: darken($primary-color, 15%);
+        }
+    }
+
+    .btn-container {
+        border-left: 1px solid $primary-color;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+// MAIN
+#main {
+    background-color: lighten($dark-color, 7%);
+}
+
+// PROGRAMS
+#programs {
+    .programs-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .program {
+
+        position: relative;
+        background-color: $primary-color;
+        color: set-text-color($primary-color);
+        border-radius: 5px;
+
+        h2.m-heading {
+            margin-left: 5px;
+        }
+
+        p {
+            color: darken($light-color, 20%);
+        }
+    }
 }
