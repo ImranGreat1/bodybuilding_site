@@ -206,3 +206,46 @@
         }
     }
 }
+
+#news {
+    .news-container {
+        display: flex;
+    }
+
+    .main-news {
+        flex: 2;
+        border-right: 1px solid $primary-color;
+
+        article {
+            display: flex;
+        }
+
+        .article-text {
+            flex: 2;
+        }
+
+
+        $images: (1, 2, 3);
+
+        @each $image in $images {
+            .img#{$image} {
+                width: 100%;
+                background: url("../img/image#{$image}.jpg") no-repeat center center/cover;
+                border: 1px solid $light-color;
+                flex: 1;
+            }
+        }
+
+        p,
+        .date {
+            color: darken($light-color, 20%);
+        }
+
+
+
+    }
+
+    .categories {
+        flex: 1;
+    }
+}

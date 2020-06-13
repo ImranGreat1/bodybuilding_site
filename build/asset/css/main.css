@@ -228,7 +228,7 @@ img.responsive-img {
 }
 
 .m-heading {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .m-heading-100 {
   font-weight: 100;
@@ -259,7 +259,7 @@ img.responsive-img {
 }
 
 .s-heading {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .s-heading-100 {
   font-weight: 100;
@@ -733,6 +733,45 @@ img.responsive-img {
 }
 #programs .program p {
   color: #c1c1c1;
+}
+
+#news .news-container {
+  display: flex;
+}
+#news .main-news {
+  flex: 2;
+  border-right: 1px solid #717171;
+}
+#news .main-news article {
+  display: flex;
+}
+#news .main-news .article-text {
+  flex: 2;
+}
+#news .main-news .img1 {
+  width: 100%;
+  background: url("../img/image1.jpg") no-repeat center center/cover;
+  border: 1px solid #f4f4f4;
+  flex: 1;
+}
+#news .main-news .img2 {
+  width: 100%;
+  background: url("../img/image2.jpg") no-repeat center center/cover;
+  border: 1px solid #f4f4f4;
+  flex: 1;
+}
+#news .main-news .img3 {
+  width: 100%;
+  background: url("../img/image3.jpg") no-repeat center center/cover;
+  border: 1px solid #f4f4f4;
+  flex: 1;
+}
+#news .main-news p,
+#news .main-news .date {
+  color: #c1c1c1;
+}
+#news .categories {
+  flex: 1;
 }
 
 /*# sourceMappingURL=main.css.map */

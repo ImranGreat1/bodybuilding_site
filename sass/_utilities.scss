@@ -171,7 +171,7 @@ $weights: (100, 200, 300, 400, 500, 600, 700, 800, 900);
 }
 
 .m-heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
 
     @each $weight in $weights {
         &-#{$weight} {
@@ -182,7 +182,7 @@ $weights: (100, 200, 300, 400, 500, 600, 700, 800, 900);
 }
 
 .s-heading {
-    font-size: 2rem;
+    font-size: 1.8rem;
 
     @each $weight in $weights {
         &-#{$weight} {
@@ -233,7 +233,7 @@ $spaces: (1, 2, 3, 4, 5);
 
 
 
-    // PAdding
+    // Padding
     .p-#{$space} {
         padding: #{$space}rem;
     }
