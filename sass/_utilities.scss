@@ -195,7 +195,7 @@ $weights: (100, 200, 300, 400, 500, 600, 700, 800, 900);
 
 // MARGINS AND PADDINGS
 
-$spaces: (1, 2, 3, 4, 5);
+$spaces: (1, 2, 3, 4, 5, 6);
 
 @each $space in $spaces {
 
@@ -228,6 +228,25 @@ $spaces: (1, 2, 3, 4, 5);
 
     .mb-#{$space} {
         margin-bottom: #{$space}rem;
+    }
+
+    // Auto spacing
+    // margin
+    .mr-auto {
+        margin-right: auto;
+    }
+
+    .ml-auto {
+        margin-left: auto;
+    }
+
+    // padding
+    .pr-auto {
+        padding-right: auto;
+    }
+
+    .pl-auto {
+        padding-left: auto;
     }
 
 

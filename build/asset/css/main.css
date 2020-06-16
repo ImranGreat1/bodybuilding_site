@@ -319,6 +319,22 @@ img.responsive-img {
   margin-bottom: 1rem;
 }
 
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.pr-auto {
+  padding-right: auto;
+}
+
+.pl-auto {
+  padding-left: auto;
+}
+
 .p-1 {
   padding: 1rem;
 }
@@ -377,6 +393,22 @@ img.responsive-img {
 
 .mb-2 {
   margin-bottom: 2rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.pr-auto {
+  padding-right: auto;
+}
+
+.pl-auto {
+  padding-left: auto;
 }
 
 .p-2 {
@@ -439,6 +471,22 @@ img.responsive-img {
   margin-bottom: 3rem;
 }
 
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.pr-auto {
+  padding-right: auto;
+}
+
+.pl-auto {
+  padding-left: auto;
+}
+
 .p-3 {
   padding: 3rem;
 }
@@ -497,6 +545,22 @@ img.responsive-img {
 
 .mb-4 {
   margin-bottom: 4rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.pr-auto {
+  padding-right: auto;
+}
+
+.pl-auto {
+  padding-left: auto;
 }
 
 .p-4 {
@@ -559,6 +623,22 @@ img.responsive-img {
   margin-bottom: 5rem;
 }
 
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.pr-auto {
+  padding-right: auto;
+}
+
+.pl-auto {
+  padding-left: auto;
+}
+
 .p-5 {
   padding: 5rem;
 }
@@ -587,6 +667,82 @@ img.responsive-img {
 
 .pb-5 {
   padding-bottom: 5rem;
+}
+
+.m-6 {
+  margin: 6rem;
+}
+
+.my-6 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.mx-6 {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.ml-6 {
+  margin-left: 6rem;
+}
+
+.mr-6 {
+  margin-right: 6rem;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+.mb-6 {
+  margin-bottom: 6rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.pr-auto {
+  padding-right: auto;
+}
+
+.pl-auto {
+  padding-left: auto;
+}
+
+.p-6 {
+  padding: 6rem;
+}
+
+.py-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.px-6 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.pl-6 {
+  padding-left: 6rem;
+}
+
+.pr-6 {
+  padding-right: 6rem;
+}
+
+.pt-6 {
+  padding-top: 6rem;
+}
+
+.pb-6 {
+  padding-bottom: 6rem;
 }
 
 #main-header #navbar .section-one {
