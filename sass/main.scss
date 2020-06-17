@@ -42,11 +42,13 @@
         }
 
         // SECTION-TWO OF NAVBAR
+
         .section-two-wrap {
             display: flex;
             justify-content: space-between;
             align-items: center;
             height: 10rem;
+
 
             a {
                 color: $light-color;
@@ -177,10 +179,6 @@
 
 }
 
-// MAIN
-#main {
-    background-color: lighten($dark-color, 7%);
-}
 
 // PROGRAMS
 #programs {
@@ -201,16 +199,18 @@
             margin-left: 5px;
         }
 
-        p {
-            color: darken($light-color, 20%);
-        }
     }
 }
+
+
+// News section
 
 #news {
     .news-container {
         display: flex;
     }
+
+
 
     .main-news {
         flex: 2;
@@ -236,16 +236,18 @@
             }
         }
 
-        p,
-        .date {
-            color: darken($light-color, 20%);
-        }
-
-
-
     }
 
     .categories {
         flex: 1;
+
+        .client {
+            text-align: right;
+        }
+
+        .p-0 {
+            padding: 5px;
+        }
+
     }
 }

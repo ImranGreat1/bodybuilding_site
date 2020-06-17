@@ -126,6 +126,10 @@ img.responsive-img {
     @include bg-mixin($secondary-color)
 }
 
+.bg-semi-dark {
+    @include bg-mixin(lighten($dark-color, 7%))
+}
+
 // COLORS
 .primary-color {
     color: $primary-color;
@@ -137,6 +141,10 @@ img.responsive-img {
 
 .text-white {
     color: #fff;
+}
+
+.dull-text {
+    color: darken($light-color, 20%);
 }
 
 // Typography
