@@ -33,6 +33,29 @@ img.responsive-img {
     border-radius: 50%;
 }
 
+.text-center {
+    text-align: center;
+}
+
+
+// DISPLAYS
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 // BUTTONS
 %btn-share {
     display: inline-block;
@@ -144,7 +167,7 @@ img.responsive-img {
 }
 
 .dull-text {
-    color: darken($light-color, 20%);
+    color: darken($light-color, 30%);
 }
 
 // Typography
