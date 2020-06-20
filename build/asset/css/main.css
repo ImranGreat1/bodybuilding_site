@@ -90,6 +90,10 @@ img.responsive-img {
   display: inline-block;
 }
 
+.block {
+  display: block;
+}
+
 .btn {
   display: inline-block;
   text-decoration: none;
@@ -980,6 +984,9 @@ img.responsive-img {
 #footer .img-container img {
   width: 100%;
   height: auto;
+}
+#footer .about-img {
+  width: 75%;
 }
 
 /*# sourceMappingURL=main.css.map */
